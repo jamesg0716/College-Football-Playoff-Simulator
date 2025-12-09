@@ -28,4 +28,9 @@ public class Team {
     public int getDefenseRating() {
         return defenseRating;
     }
+
+    public double calculateOverallRating(int offRating, int defRating) {
+        double overall = (double)(offRating + defRating) / 2;
+        return overall;
+    }
 }

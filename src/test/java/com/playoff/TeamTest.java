@@ -31,4 +31,12 @@ public class TeamTest {
         int rating = team.getDefenseRating();
         assertEquals(90, rating);
     }
+
+    @org.junit.Test
+    public void calculateOverallTest() {
+        Team team = new Team("Alabama", 3, 80, 90);
+        double rating = team.calculateOverallRating(80, 90);
+        double expected = (80.0 + 90.0) / 2;
+        assertEquals(expected, rating);
+    }
 }
