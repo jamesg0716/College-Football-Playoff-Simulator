@@ -1,0 +1,13 @@
+*Team Class
+
+*object team
+
+*Attributes
+-Name
+-Seed
+-OffenseRating
+-DefenseRating
+
+*Actions
+-Getters
+-Calculate Overall Rating
