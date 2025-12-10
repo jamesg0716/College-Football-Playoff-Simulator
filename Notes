@@ -1,4 +1,4 @@
-*Team Class
+1. Team Class
 
 *object team
 
@@ -11,3 +11,15 @@
 *Actions
 -Getters
 -Calculate Overall Rating
+
+2. Game Class
+
+3. Game Engine Class
+- Takes 2 teams
+- Uses ratings and randomness to get scores of each team
+- higher overall team should win more often but upsets possible
+- Returns a game result: the winner and score of game
+
+4. Bracket Class
+
+5. Main Class

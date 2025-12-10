@@ -39,4 +39,5 @@ public class TeamTest {
         double expected = (80.0 + 90.0) / 2;
         assertEquals(expected, rating);
     }
+
 }
