@@ -24,4 +24,20 @@ public class GameTest {
         game.setTeamBScore(12);
         assertEquals(expected, game.getTeamBScore());
     }
+
+    @org.junit.Test
+    public void testSetWinner() {
+        Game game = new Game(teamA, teamB, 10, 15, teamB, teamA);
+        Team expected = teamA;
+        game.setWinner(teamA);
+        assertEquals(expected, game.getWinner());
+    }
+
+    @org.junit.Test
+    public void testSetLoser() {
+        Game game = new Game(teamA, teamB, 10, 15, teamB, teamA);
+        Team expected = teamB;
+        game.setLoser(teamB);
+        assertEquals(expected, game.getLoser());
+    }
 }
